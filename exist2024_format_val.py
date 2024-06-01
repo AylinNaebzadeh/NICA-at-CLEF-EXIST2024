@@ -211,7 +211,7 @@ def process_format_runs_by_task(task_folder):
             
             
 if __name__ == '__main__': 
-    process_format_runs_by_task("test_formats/test/")         
+    process_format_runs_by_task("task5/")         
             
             
             
