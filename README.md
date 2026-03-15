@@ -15,7 +15,7 @@ covering five of the six tasks:
 | Task 5 | Source Intention in Memes | Image + Text | Multi-class classification |
 
 <p align="center">
-  <img src="assets/tasks_overview.png" alt="Tasks Overview" width="600"/>
+  <img src="assets/tasks_overview.png" alt="Tasks Overview" width="900"/>
 </p>
 
 ### Key Results
@@ -38,7 +38,7 @@ We fine-tuned multilingual transformer models using HuggingFace's Trainer API on
 
 **Pre-processing:** User handles replaced with `@USER`, URLs with `#HTTPURL`. Minimal further processing to preserve tweet characteristics.
 <p align="center">
-  <img src="assets/method_tasks1_2_3.png" alt="Methodology for Tasks 1 & 2 & 3 Overview" width="600"/>
+  <img src="assets/method_tasks1_2_3.png" alt="Methodology for Tasks 1 & 2 & 3 Overview" width="900"/>
 </p>
 ### Tasks 4–5 (Multimodal / Memes)
 We used **CLIP** to jointly encode image and text embeddings, concatenated them, and passed them through a linear classifier.
@@ -48,7 +48,7 @@ We used **CLIP** to jointly encode image and text embeddings, concatenated them,
 
 Images were resized to 224×224 pixels. Data was split 90/10 for train/dev.
 <p align="center">
-  <img src="assets/method_tasks_4_5.png" alt="Methodology for Tasks 4 & 5 Overview" width="600"/>
+  <img src="assets/method_tasks_4_5.png" alt="Methodology for Tasks 4 & 5 Overview" width="900"/>
 </p>
 ---
 
