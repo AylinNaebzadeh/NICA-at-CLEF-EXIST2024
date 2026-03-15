@@ -96,11 +96,3 @@ If you use this code, please cite our paper:
   address   = {Grenoble, France}
 }
 ```
-
----
-
-## Authors
-
-- **Aylin Naebzadeh** — Iran University of Science and Technology · [a_naeb@comp.iust.ac.ir](mailto:a_naeb@comp.iust.ac.ir)
-- **Melika Nobakhtian** — Tehran Institute for Advanced Studies (TeIAS), Khatam University · [M.Noubakhtian.5740@Khatam.ac.ir](mailto:M.Noubakhtian.5740@Khatam.ac.ir)
-- **Sauleh Eetemadi** — Iran University of Science and Technology · [sauleh@iust.ac.ir](mailto:sauleh@iust.ac.ir)
