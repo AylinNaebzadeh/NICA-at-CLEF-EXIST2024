@@ -14,6 +14,10 @@ covering five of the six tasks:
 | Task 4 | Sexism Identification in Memes | Image + Text | Binary classification |
 | Task 5 | Source Intention in Memes | Image + Text | Multi-class classification |
 
+<p align="center">
+  <img src="assets/tasks_overview.png" alt="Tasks Overview" width="600"/>
+</p>
+
 ### Key Results
 
 - 🥈 **4th place** — Task 5 (Soft-Soft, All languages) · ICM-Soft Norm: 0.3370  
@@ -33,7 +37,9 @@ We fine-tuned multilingual transformer models using HuggingFace's Trainer API on
 - `distilbert/distilbert-base-multilingual-cased` (DBMLC)
 
 **Pre-processing:** User handles replaced with `@USER`, URLs with `#HTTPURL`. Minimal further processing to preserve tweet characteristics.
-
+<p align="center">
+  <img src="assets/method_tasks1_2_3.png" alt="Methodology for Tasks 1 & 2 & 3 Overview" width="600"/>
+</p>
 ### Tasks 4–5 (Multimodal / Memes)
 We used **CLIP** to jointly encode image and text embeddings, concatenated them, and passed them through a linear classifier.
 
@@ -41,7 +47,9 @@ We used **CLIP** to jointly encode image and text embeddings, concatenated them,
 - Task 5: `openai/clip-vit-large-patch14`
 
 Images were resized to 224×224 pixels. Data was split 90/10 for train/dev.
-
+<p align="center">
+  <img src="assets/method_tasks_4_5.png" alt="Methodology for Tasks 4 & 5 Overview" width="600"/>
+</p>
 ---
 
 ## Hyperparameters
